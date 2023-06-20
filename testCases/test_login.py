@@ -57,5 +57,6 @@ class Test_001_Login:
             self.driver.save_screenshot(".\\screenshots\\" + "test_login.png")
             self.driver.close()
             self.logger.error("**************** Test case is failed *********************")
+            self.logger.error("**************** Test case is failed *********************")
 
             assert False
